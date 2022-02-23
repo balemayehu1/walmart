@@ -1,6 +1,6 @@
-.ui.borderless.container.menu {
+.ui.borderless.menu {
   background-color: #0071DC;
 }
-ui.dropdown.item{
+a{
   color: white;
 }
