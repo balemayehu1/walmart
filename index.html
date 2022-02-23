@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div>
+  <div class="ui borderless container menu">
+    <img class="ui image item" src="walmartLogo.svg">
+    <div class="ui dropdown item">
+      <i class="dropdown icon"></i>
+      <div class="text">Departments</div>
+      <div class="menu">
+        <div class="item">Grocery</div>
+        <div class="item">Electronics</div>
+        <div class="item">Baby</div>
+      </div>
+    </div>
+    <div class="ui dropdown item">
+      <i class="dropdown icon"></i>
+      <div class="text">Services</div>
+      <div class="menu">
+        <div class="item">All Services</div>
+        <div class="item">Health Services</div>
+        <div class="item">Custom Cakes</div>
+      </div>
+    </div>
+    <div class="ui item search">
+      <div class="ui icon input">
+        <input class="prompt" type="text" placeholder="Search everything at Walmart online and in Store">
+        <i class="search icon"></i>
+      </div>
+      <div class="results"></div>
+    </div>
+
+    <div class="ui dropdown item">
+      <i class="dropdown icon"></i>
+      <div class="right item">Reorder My Items</div>
+      <div class="menu">
+        <div class="item">New</div>
+      </div>
+
+    </div>
+    <a class="item">
+      <i class="user outline icon"></i>
+      SignIn Account
+    </a>
+  </div>
+</div>
+<script>
+  $('.ui.dropdown')
+      .dropdown()
+</script>
+</body>
+</html>
