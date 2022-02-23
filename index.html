@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Bogle|'Helvetica Neue'|Arial">
+
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -13,16 +16,16 @@
   <div class="ui borderless menu">
     <img class="ui image item" src="walmartLogo.svg">
     <div class="ui dropdown item">
-      <i class="th large icon"></i>
+      <i class="inverted th large icon"></i>
       <div class="text">Departments</div>
-      <div class="menu">
+      <div class="compact menu">
         <div class="item">Grocery</div>
         <div class="item">Electronics</div>
         <div class="item">Baby</div>
       </div>
     </div>
     <div class="ui dropdown item">
-      <i class="th large icon"></i>
+      <i class="inverted th large icon"></i>
       <div class="text">Services</div>
       <div class="menu">
         <div class="item">All Services</div>
@@ -33,28 +36,44 @@
     <div class="ui item search">
       <div class="ui icon input">
         <input class="prompt" type="text" placeholder="Search everything at Walmart online and in Store">
-        <i class="search icon"></i>
+        <i class="inverted search icon"></i>
       </div>
       <div class="results"></div>
     </div>
 
     <div class="ui dropdown item">
-      <i class="dropdown icon"></i>
-      <div class="right item">Reorder My Items</div>
+      <i class="inverted dropdown icon"></i>
+      <div class="right item ">
+        <div class="text">
+        Reorder My Items</div>
+      </div>
       <div class="menu">
         <div class="item">New</div>
       </div>
 
     </div>
     <a class="item">
-      <i class="user outline icon"></i>
-      SignIn Account
+      <i class="inverted user outline icon"></i>
+      <div class="text">
+      SignIn Account</div>
     </a>
     <a class="item">
-      <i class="shopping cart icon"></i>
-      SignIn Account
+      <i class="inverted shopping cart icon"></i>
+      <div class="text"> Account</div>
     </a>
   </div>
+</div>
+<div class="ui borderless sec menu">
+  <a class="item">
+    <i class="inverted home icon"></i>
+    <div class="text">
+    Honolulu Store</div>
+  </a>
+  <a class="item">
+    <i class="inverted map marker icon"></i>
+    <div class="text">
+    Honolulu, 96822</div>
+  </a>
 </div>
 <script>
   $('.ui.dropdown')
