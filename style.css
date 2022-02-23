@@ -3,14 +3,42 @@
   border: none;
   box-shadow: none;
 }
+
 .ui.borderless.sec.menu {
   background-color: #004F9A;
   border: none;
   box-shadow: none;
   margin-top: 0px;
 }
+
 .text {
   color: white;
   font-family: 'Arial';
+  font-weight: bold;
+}
 
+.ui.top.menu {
+  border-radius: 0px !important;
+  height: 88px;
+}
+.ui.menu {
+   border-radius: 0px !important;
+
+ }
+.ui.middle.aligned.image.item{
+  height: 50px;
+  margin-top: 18px;
+}
+
+.ui.right.item.search {
+  width: 400px;
+
+.input {
+  width: 100%;
+}
+
+}
+.low{
+  font-weight: normal !important;
+  text-decoration: underline;
 }
